@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".statementScreen.StatementActivity">
+
+    <com.ygorfx1.dev.android.testeandroidv2ym.customView.WhiteTextView
+        android:id="@+id/tv_username_receive_statement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="28sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_logout_statement"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_logout_statement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_logout"
+        app:layout_constraintLeft_toRightOf="@id/tv_username_receive_statement"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.ygorfx1.dev.android.testeandroidv2ym.customView.WhiteTextView
+        android:id="@+id/account_user_statement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/account"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/btn_logout_statement"
+        app:layout_constraintTop_toBottomOf="@id/tv_username_receive_statement" />
+
+    <com.ygorfx1.dev.android.testeandroidv2ym.customView.WhiteTextView
+        android:id="@+id/tv_account_user_statement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="@dimen/text_size_xlarge"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/btn_logout_statement"
+        app:layout_constraintTop_toBottomOf="@id/account_user_statement" />
+
+    <com.ygorfx1.dev.android.testeandroidv2ym.customView.WhiteTextView
+        android:id="@+id/balance_user_statement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/balance"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/btn_logout_statement"
+        app:layout_constraintTop_toBottomOf="@id/tv_account_user_statement" />
+
+    <com.ygorfx1.dev.android.testeandroidv2ym.customView.WhiteTextView
+        android:id="@+id/tv_balance_user_statement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="@dimen/text_size_xlarge"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/btn_logout_statement"
+        app:layout_constraintTop_toBottomOf="@id/balance_user_statement" />
+
+    <com.ygorfx1.dev.android.testeandroidv2ym.customView.GrayTextView
+        android:id="@+id/user_recent_spending_statement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/recent"
+        android:textSize="@dimen/text_size_xxnormal"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_balance_user_statement" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_statement"
+        android:layout_width="408dp"
+        android:layout_height="392dp"
+        android:background="@color/white"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/user_recent_spending_statement"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_recent_spending_statement"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/item_statement_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
