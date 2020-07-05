@@ -9,11 +9,11 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class StatementPresenter implements StatementInteractor.Presenter {
+public class StatementPresenter implements StatementContract.Presenter {
 
-    private StatementInteractor.View view;
+    private StatementContract.View view;
 
-    public StatementPresenter(StatementInteractor.View view) {
+    public StatementPresenter(StatementContract.View view) {
         this.view = view;
     }
 

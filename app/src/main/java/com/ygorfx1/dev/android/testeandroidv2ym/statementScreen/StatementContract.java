@@ -4,7 +4,7 @@ import com.ygorfx1.dev.android.testeandroidv2ym.models.Statement;
 
 import java.util.List;
 
-public interface StatementInteractor {
+public interface StatementContract {
 
     interface View {
 

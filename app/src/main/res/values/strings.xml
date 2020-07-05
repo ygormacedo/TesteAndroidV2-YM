@@ -13,8 +13,8 @@
     <string name="currency">R$</string>
 
     <!--Login-->
-    <string name="error_user_login">Error user</string>
-    <string name="error_password_login">Error password</string>
+    <string name="error_user_login">Usuario Inválido</string>
+    <string name="error_password_login">Senha Errada</string>
 
     <!--Statement-->
     <string name="error_load_statement">Error load statements</string>

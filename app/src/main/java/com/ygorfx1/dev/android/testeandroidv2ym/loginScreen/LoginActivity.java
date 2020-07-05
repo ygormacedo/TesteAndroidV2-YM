@@ -20,7 +20,7 @@ import butterknife.ButterKnife;
 
 public class LoginActivity extends AppCompatActivity implements
         View.OnClickListener,
-        LoginInteractor.View {
+        LoginContract.View {
 
     @BindView(R.id.btn_login)
     Button btnLogin;
@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity implements
     private Utils utils = new Utils();
     private Context ct;
 
-    LoginPresenter presenter = new LoginPresenter(this);
+    LoginInteractor presenter = new LoginInteractor(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

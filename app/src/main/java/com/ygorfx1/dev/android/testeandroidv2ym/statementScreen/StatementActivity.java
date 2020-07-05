@@ -23,7 +23,7 @@ import butterknife.ButterKnife;
 
 public class StatementActivity extends AppCompatActivity implements
         View.OnClickListener,
-        StatementInteractor.View {
+        StatementContract.View {
 
     @BindView(R.id.tv_username_receive_statement)
     TextView tvUserName;

@@ -38,7 +38,7 @@
         android:layout_margin="16dp"
         android:hint="@string/hint_password"
         android:imeOptions="actionDone"
-        android:inputType="textVisiblePassword"
+        android:inputType="textPassword"
         app:errorEnabled="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

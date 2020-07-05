@@ -1,8 +1,8 @@
 package com.ygorfx1.dev.android.testeandroidv2ym;
 
 import com.ygorfx1.dev.android.testeandroidv2ym.helpers.Validator;
+import com.ygorfx1.dev.android.testeandroidv2ym.loginScreen.LoginContract;
 import com.ygorfx1.dev.android.testeandroidv2ym.loginScreen.LoginInteractor;
-import com.ygorfx1.dev.android.testeandroidv2ym.loginScreen.LoginPresenter;
 import com.ygorfx1.dev.android.testeandroidv2ym.models.UserInfo;
 
 import org.junit.Assert;
@@ -16,17 +16,17 @@ import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.verify;
 
 
-public class LoginPresenterUnitTest {
+public class LoginInteractorUnitTest {
 
-    LoginInteractor.Presenter presenter;
+    LoginContract.Presenter presenter;
 
     @Mock
-    private LoginInteractor.View view;
+    private LoginContract.View view;
 
     @Before
     public void setUp() {
         MockitoAnnotations.initMocks(this);
-        presenter = new LoginPresenter(view);
+        presenter = new LoginInteractor(view);
     }
 
     /*ErrorUser Test*/
