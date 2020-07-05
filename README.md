@@ -1,28 +1,32 @@
-<h1>Test Android Development</h1>
+   	 Test Android Development
 
-    Este projeto foi desenvolvido conforme as instruções do teste https://github.com/InterviewTests/TesteAndroidv2<br/><br/>
+    Este projeto foi desenvolvido conforme as instruções do teste https://github.com/InterviewTests/TesteAndroidv2
 
-    <h3>This Project</h3>
-    No desenvolvimento deste projeto utilizou-se<br/><br/>
+   	 This Project
+	 
+    No desenvolvimento deste projeto utilizou-se
     
-    Java<br/><br/>
-    Arquitetura MVP<br/><br/>
-    Retrofit2<br/><br/>
-    OkHTTP3<br/><br/>
-    Gson<br/><br/>
-    JUnit<br/><br/>
-    Mockito<br/><br/>
-    ButterKnife<br/><br/>
-    SharedPreferences<br/><br/>
-    AndroidX<br/><br/>
-    Suporte para android 4.4 ou superior<br/><br/>
+   	 Java
+	 
+    Arquitetura MVP
+    Retrofit2
+    OkHTTP3
+    Gson
+    JUnit
+    Mockito
+    ButterKnife
+    SharedPreferences
+    AndroidX
+    Suporte para android 4.4 ou superior
 
-    <h3>Quick Start</h3>
-    Clone este projeto<br/><br/>
-    Execute no Android Studio<br/><br/>
+    	Quick Start
+	
+    Clone este projeto
+    Execute no Android StudiO
 
-    <h3>Observações</h3>
-    Autor: Ygor Macedo <br/><br/>
-    Email: ygormacedo44@gmail.com</br></br>
-    Login: Teste@gmail.com</br></br>
-    Password: P@ssw0rd</br></br>
+  	 Observações 
+   
+    Autor: Ygor Macedo
+    Email: ygormacedo44@gmail.com
+    Login: Teste@gmail.com
+    Password: P@ssw0rd
